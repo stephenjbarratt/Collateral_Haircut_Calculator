@@ -5,7 +5,7 @@ In banking, ensuring loans are securely matched by collateral is vital to preven
 By automating the data pipeline, the tool eliminates manual lookup issues and protects the desk from human error. It evaluates user inputs for the collateral and automatically applies the total haircut percentage, based on precise foreign exchange (FX) penalty buffers for cross-currency trades, to calculate the maximum eligible loan. Ultimately the calculator ensures strict regulatory compliance, protects firm liquidity and significantly improves data integrity.
 
 ## Visual Preview
-![Collateral Haircut Calculator Preview](images/FX_Haircuts.png)
+![Collateral Haircut Calculator Preview]()
 
 ## Problem Statement
 In banking ensuring the reconcilliation of loans to collateral is critical in preventing financial exposure. Analysts are frequently required to cross reference security lists against complex currency haircut grids. Manual intervention introduces a high probability of human error.
@@ -20,7 +20,7 @@ In banking ensuring the reconcilliation of loans to collateral is critical in pr
 ### Multi Dimensional Matrix
 Engineered a two dimensional grid mapping system to handle cross currency transactions, based directly on the Bank of England Sterling Monetary Framework (See figure 2.0). By evaluating the Currency of Lending against the Currency of Collateral, the tool dynamically scales the entire regulatory matrix and penalties are calculated for a currency mismatch.
 
-![]()
+![Bank of England Monetary Framwork FX Haircuts](images/FX_Haircuts.png)
 
 *Figure 2.0: The official Bank of England prudental schedule used as the source architecture for the calculator's backend two dementional lookup matrix*
 ### 
