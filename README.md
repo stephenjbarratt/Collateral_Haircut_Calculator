@@ -17,16 +17,22 @@ In banking ensuring the reconcilliation of loans to collateral is critical in pr
 
 ## Technical Highlights
 
+### Data Indexing using XLOOKUP
+Built an automated lookup using multi criteria XLOOKUP arrays, instead of using copy and pasting, the tool automatically evaluates 3 trade valiables (Asset Class, Credit Rating and Maturity Range). This fetches the exact baseline risk from a centralised market data cache sheet. This means the back end risk tables can be updated or expanded without the UI being altered.
+
+![Market Data Cache Sheet]()
+*Figure 3.0: The Market Cache Sheet containing the Security Reference details* 
+
 ### Multi Dimensional Matrix
 Engineered a two dimensional grid mapping system to handle cross currency transactions, based directly on the Bank of England Sterling Monetary Framework (See figure 2.0). By evaluating the Currency of Lending against the Currency of Collateral, the tool dynamically scales the entire regulatory matrix and penalties are calculated for a currency mismatch.
 
 ![Bank of England Monetary Framwork FX Haircuts](images/FX_Haircuts.png)
 
 *Figure 2.0: The official Bank of England prudental schedule used as the source architecture for the calculator's backend two dementional lookup matrix*
-### 
-```excel
 
-```
+### Automated Exception Handling
+Implemented error handling, by wrapping all primary calculations in defensive layers (IFERROR and ISNUMBER). This protects the workbook by catching empty user parameters and unpopulated asset lookup arrays before they process, safely handling exceptions. This stops errors such as #VALUE! and #N/A from corrupting the user interface.
+
 ### Workflow Automation using Macros
 Developed process automation scripts to eliminate repetitive manual tasks. Using macros the tool allows users to reset transaction inputs and reset the calculator view with a click of a button, reducing operational friction.
 
