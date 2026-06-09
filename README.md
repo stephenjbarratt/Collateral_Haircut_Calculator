@@ -34,7 +34,7 @@ Developed process automation scripts to eliminate repetitive manual tasks. Using
 
 ### 1. Total Haircut Percentage
 Total Haircut Percentage (%) = Baseline Asset Risk (%) + FX Mismatch Penalty (%)
-Ensures that if a loan is in GBP but the collateral is in USD, the foreign exchange volatility buffer is automatically added to the baseline asset risk.
+* Ensures that if a loan is in GBP but the collateral is in USD, the foreign exchange volatility buffer is automatically added to the baseline asset risk.
 
 ### 2. Haircut Applied Dollar Value
 Haircut Applied Value = Collateral Market Value x Total Haircut Percentage.
