@@ -20,8 +20,9 @@ In banking ensuring the reconcilliation of loans to collateral is critical in pr
 ### Multi Dimensional Matrix
 Engineered a two dimensional grid mapping system to handle cross currency transactions, based directly on the Bank of England Sterling Monetary Framework (See figure 2.0). By evaluating the Currency of Lending against the Currency of Collateral, the tool dynamically scales the entire regulatory matrix and penalties are calculated for a currency mismatch.
 
-![Figure 2.0 The official Bank of England prudental schedule used as the source architecture for the calculator's backend two dementional lookup matrix]()
+![]()
 
+*Figure 2.0: The official Bank of England prudental schedule used as the source architecture for the calculator's backend two dementional lookup matrix*
 ### 
 ```excel
 
