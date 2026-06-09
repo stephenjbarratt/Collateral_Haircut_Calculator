@@ -43,5 +43,4 @@ Maximum Eligible Loan = Collateral Market Value - Haircut Applied Value.
 
 ## Operational Impact & Conclusion
 By replacing a manual error prone spreadsheet workflow with a dynamic calculation tool, this project successfully eliminated the root cause of data exceptions at the UI level. The resulting tool helps to ensure data integrity and directly mitigates institutional financial exposure.
-
 ### 4.
