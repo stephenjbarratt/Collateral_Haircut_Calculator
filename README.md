@@ -31,7 +31,7 @@ Engineered a two dimensional grid mapping system to handle cross currency transa
 *Figure 2.0: The official Bank of England prudental schedule used as the source architecture for the calculator's backend two dementional lookup matrix*
 
 ### Automated Exception Handling
-Implemented error handling, by wrapping all primary calculations in defensive layers (IFERROR and ISNUMBER). This protects the workbook by catching empty user parameters and unpopulated asset lookup arrays before they process, safely handling exceptions. This stops errors such as #VALUE! and #N/A from corrupting the user interface.
+Implemented error handling, by wrapping all primary calculations in defensive layers (IFERROR and ISNUMBER). This protects the workbook by catching empty user parameters and unpopulated asset lookup arrays before they process, safely handling exceptions. This stops errors such as #VALUE! from corrupting the user interface.
 
 ### Workflow Automation using Macros
 Developed process automation scripts to eliminate repetitive manual tasks. Using macros the tool allows users to reset transaction inputs and reset the calculator view with a click of a button, reducing operational friction.
