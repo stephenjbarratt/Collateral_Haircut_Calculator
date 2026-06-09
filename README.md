@@ -20,7 +20,7 @@ In banking ensuring the reconcilliation of loans to collateral is critical in pr
 ### Data Indexing using XLOOKUP
 Built an automated lookup using multi criteria XLOOKUP arrays, instead of using copy and pasting, the tool automatically evaluates 3 trade valiables (Asset Class, Credit Rating and Maturity Range). This fetches the exact baseline risk from a centralised market data cache sheet. This means the back end risk tables can be updated or expanded without the UI being altered.
 
-![Market Data Cache Sheet]()
+![Market Data Cache Sheet](images/Securities_References.png)
 *Figure 3.0: The Market Cache Sheet containing the Security Reference details* 
 
 ### Multi Dimensional Matrix
