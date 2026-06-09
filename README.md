@@ -5,7 +5,7 @@ In banking, ensuring loans are securely matched by collateral is vital to preven
 By automating the data pipeline, the tool eliminates manual lookup issues and protects the desk from human error. It evaluates user inputs for the collateral and automatically applies the total haircut percentage, based on precise foreign exchange (FX) penalty buffers for cross-currency trades, to calculate the maximum eligible loan. Ultimately the calculator ensures strict regulatory compliance, protects firm liquidity and significantly improves data integrity.
 
 ## Visual Preview
-![Collateral Haircut Calculator Preview](images/FX_Haircuts)
+![Collateral Haircut Calculator Preview](images/FX_Haircuts.png)
 
 ## Problem Statement
 In banking ensuring the reconcilliation of loans to collateral is critical in preventing financial exposure. Analysts are frequently required to cross reference security lists against complex currency haircut grids. Manual intervention introduces a high probability of human error.
